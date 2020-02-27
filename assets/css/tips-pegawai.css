@@ -1,0 +1,33 @@
+.sec1{
+    background: url(../img/tips-pegawai/pegawai.png) no-repeat center;
+    background-size: cover;
+    background-position-y: 15%;
+}
+
+.sec1 .awal{
+    margin-top: 10%;
+}
+
+.sec2 .gambar-samping{
+    position: absolute;
+    top: 650px;
+    right: 8%;
+    width: 10%;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+.sec2 .gambar-samping img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width : 900px){
+    .sec1 .awal p {
+        margin-bottom: 30px;
+    }
+
+    .sec1 .awal {
+        margin-top: 21%;
+    }
+}

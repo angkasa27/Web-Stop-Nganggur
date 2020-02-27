@@ -1,0 +1,116 @@
+.sec1{
+    background: url(../img/tips-trik/tips-trik.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.sec1 .awal{
+    width: 50% !important;
+    position: relative !important;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0,0) !important;
+            transform: translate(0,0) !important;
+    margin-top: 8%;
+    margin-left: 20%;
+}
+
+.sec1 nav ul li a{
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.sec1 .awal p{
+    text-transform: uppercase;
+    font-size: 2.3em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+.sec1 .awal h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+.sec2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 15%;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.sec2 .judul{
+    text-transform: uppercase;
+    font-size: 2em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sec2 a{
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.sec2 a:hover{
+    color: #6C63FF;
+}
+
+.sec2 .pengusaha,
+.sec2 .konten-kreator,
+.sec2 .pegawai{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.sec2 .pengusaha .judul,
+.sec2 .konten-kreator .gambar,
+.sec2 .pegawai .judul{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.sec2 .pengusaha .gambar,
+.sec2 .konten-kreator .judul,
+.sec2 .pegawai .gambar{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    width: 50%;
+}
+
+
+.sec2 .konten-kreator .judul{
+    width: 40% !important;
+    text-align: center;
+}
+
+@media screen and (max-width : 900px){
+    .sec1 .awal {
+        margin-top: 20%;
+    }
+
+    .sec2 .gambar img{
+        width: 120%;
+    }
+
+    .sec2 .judul{
+        font-size: 1.3em;
+    }
+}

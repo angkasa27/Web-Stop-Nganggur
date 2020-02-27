@@ -1,0 +1,14 @@
+.sec1{
+    background: url(../img/tips-pengsusaha/pengusaha.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.sec1 .awal{
+    margin-top: 7%;
+}
+
+@media screen and (max-width : 900px){
+    .sec1 .awal {
+        margin-top: 25%;
+    }
+}

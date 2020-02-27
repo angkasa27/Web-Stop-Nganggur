@@ -1,0 +1,92 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    color: #6D6D6D;
+    overflow: hidden;
+}
+
+footer .kontenF{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 50%;
+    height: 80%;
+    margin-left: 5%;
+}
+
+footer .kontenF h3{
+    margin-top: 10px;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+footer .kontenF .isi{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+footer .kontenF .isi .isi2{
+    -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+}
+
+footer .kontenF .isi ul li {
+    list-style: none;
+}
+
+footer .kontenF .isi ul li a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #6D6D6D;
+    font-size: 18px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+footer .tentangWeb{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 45%;
+    height: 80%;
+    margin-right: 5%;
+    margin-top: 10px
+}
+
+footer .tentangWeb p{
+    font-size: 18px;
+}
+
+footer .copyright{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-size: 18px;
+}
+
+footer .kontenF .isi ul li a:hover{
+    color: #000;
+}
+
+@media screen and (max-width : 900px){
+    footer .kontenF h3 {
+        font-size: 1.8em;
+    }
+
+    footer .kontenF .isi ul li a{
+        font-size: 1em;
+    }
+
+    footer .tentangWeb p {
+        font-size: .95em;
+    }
+
+    footer .copyright {
+        font-size: 1em;
+    }
+}

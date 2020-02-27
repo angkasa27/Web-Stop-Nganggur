@@ -1,0 +1,124 @@
+.sec1{
+    background: url(../img/tes-keahlian/tes-keahlian.png) no-repeat right ;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sec1 .awal{
+    width: 50% !important;
+    position: relative !important;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0,0) !important;
+            transform: translate(0,0) !important;
+    margin-top: 10%;
+    margin-left: 12%;
+}
+
+.sec1 .awal p{
+    text-transform: uppercase;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+.sec1 .awal h1{
+    text-transform: uppercase;
+}
+
+.sec2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #6C63FF;
+}
+
+.sec2 h1{
+    font-size: 2em;
+}
+
+.sec2 p{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 10%;
+}
+
+.sec2 button{
+    border: none;
+    display: inline-block;
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    border: 3px solid #fff;
+    background: #6C63FF;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.sec2 button:hover{
+    background-color: #2200ff;
+}
+
+.sec2 button:focus{
+    outline: none;
+}
+
+.sec2 .mulai,
+.sec2 .soal,
+.sec2 .selesai{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    width: 70%;
+    height: 60%;
+    line-height: 500%;
+    border-radius: 15px;
+    background-color: #001344;
+    color: #fff;
+    text-align: center;
+}
+
+.sec2 .soal button{
+    margin: 0 10%;
+}
+
+.sec2 .mulai{
+    line-height: 1000%;
+}
+
+.sec2 .mulai h1,
+.sec2 .mulai h1{
+    font-size: 3em;
+}
+
+.sec2 .soal h1{
+    text-align: left;
+    margin-left: 5%;
+}
+
+.sec2 #soal1,
+.sec2 #soal2,
+.sec2 #soal3,
+.sec2 #soal4,
+.sec2 #soal5,
+.sec2 .selesai{
+    display: none;
+}
+
+@media screen and (max-width : 900px){
+    .sec1 {
+        background-position-x: 75% !important;
+    }
+
+    .sec1 .awal {
+        margin-top: 25%;
+    }
+}

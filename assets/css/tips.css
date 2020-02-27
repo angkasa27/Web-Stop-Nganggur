@@ -1,0 +1,114 @@
+.sec1 .awal{
+    width: 50% !important;
+    position: relative !important;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0,0) !important;
+            transform: translate(0,0) !important;
+    margin-top: 3%;
+    margin-left: 12%;
+}
+
+.sec1 .awal p{
+    text-transform: uppercase;
+    font-size: 2.3em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+.sec1 .awal h1{
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+.sec2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 10% 20%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.sec2 h1,
+.sec2 h2,
+.sec2 h3,
+.sec2 p{
+    margin-bottom: 1em;
+}
+
+.sec2 h1{
+    font-size: 2.3em;
+}
+
+.sec2 h2{
+    font-size: 1.9em;
+}
+
+.sec2 a{
+    text-decoration: none;
+    transition: .3s;
+}
+
+.sec2 a:hover{
+    color: salmon;
+}
+
+.sec2 h3,
+.sec2 p.akhir{
+    font-size: 1.5em;
+}
+
+.sec2 p{
+    font-size: 1em;
+}
+
+.sec2 p.italic{
+    font-style: italic;
+}
+
+.sec2 p.quotes{
+    text-align: center;
+    margin: 0 15% 1em;
+    font-size: 1.15em;
+}
+
+.sec2 p.akhir{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+.sec2 p.samping{
+    border-left: 3px solid #000;
+    padding-left: 3%;
+}
+
+.sec2 p.penegasan{
+    margin-left: 5%;
+    font-size: 1.9em;
+    font-weight: 300;
+}
+
+.sec2 .gambar{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+.sec2 .gambar .vektor{
+    margin: auto;
+    width: 65%;
+}
+
+.sec2 .gambar img{
+    width: 100%;
+    height: auto;
+}
+
+.sec2 span{
+    display: block;
+}

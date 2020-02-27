@@ -1,0 +1,440 @@
+.sec1{
+    background: url(../img/index/sec1-bg.png) no-repeat left;
+    background-size: cover;
+}
+
+.sec1 nav .menu a{
+    color: #7c7c7c;
+    text-shadow: none !important;
+}
+
+.sec1 .awal h1 span{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.sec1 .awal h1 span:nth-child(even){
+    overflow: hidden;
+    -webkit-animation: judulWeb 1s ease-in-out;
+            animation: judulWeb 1s ease-in-out;
+    color: #6C63FF;
+}
+
+.sec1 .awal h1 span:nth-child(2){
+    -webkit-animation-delay: 0;
+            animation-delay: 0;
+}
+
+.sec1 .awal h1 span:nth-child(4){
+    letter-spacing: -1em;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes judulWeb{
+    from{
+        letter-spacing: -1em;
+    }
+    to{
+        letter-spacing: 0;
+    }
+}
+
+@keyframes judulWeb{
+    from{
+        letter-spacing: -1em;
+    }
+    to{
+        letter-spacing: 0;
+    }
+}
+
+.sec1 .awal p{
+    z-index: -1;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-animation: pWeb .5s 1.5s forwards;
+            animation: pWeb .5s 1.5s forwards;
+}
+
+@-webkit-keyframes pWeb{
+    0%{
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+    }
+    50%{
+        opacity: .1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    }
+    100%{
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+@keyframes pWeb{
+    0%{
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+    }
+    50%{
+        opacity: .1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    }
+    100%{
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+
+.sec1 .awal a{
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-animation: aWeb .8s 2.3s forwards;
+            animation: aWeb .8s 2.3s forwards;
+}
+
+@-webkit-keyframes aWeb{
+    from{
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    to{
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    }
+}
+
+@keyframes aWeb{
+    from{
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    to{
+        opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    }
+}
+
+.teksHeader {
+    margin: 50px auto;
+    font-size: 3em;
+    text-align: center;
+}
+
+.sec2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #001344;
+    overflow: hidden;
+}
+
+.sec2 .teksHeader {
+    color: #fff;
+}
+
+.sec2 h2{
+    color: #fff;
+    font-size: 2em;
+}
+
+.masalah1 {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+
+.masalah1 h2{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 10%;
+}
+
+.masalah1 img{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.masalah2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.masalah2 img{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.masalah2 h2{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-right: 10%;
+}
+
+.masalah3 {
+    position: relative;
+    width: 100%;
+    height: 75vh;
+}
+
+.masalah3 h2{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 10%;
+}
+
+.masalah3 img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sec3{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.sec3 h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.sec3 p{
+    margin-bottom: 15px;
+    font-size: 1em
+}
+
+.sec3 .langkah1{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.langkah1 .kontenL1{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 5%;
+    width: 50%;
+}
+
+.langkah1 .gambarL1{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.sec3 .langkah2{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.langkah2 .kontenL2{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-right: 5%;
+    width: 50%;
+}
+
+.langkah2 .kontenL2 p{
+    text-align: right;
+}
+
+.langkah2 .kontenL2 .kiri{
+    -webkit-transform: translateX(60%);
+            transform: translateX(60%);
+}
+
+.langkah2 .gambarL2{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.tombol2{
+    width: 250px;
+    height: 60px;
+    padding: 0 10px;
+    border-radius: 30px;
+    line-height: 60px;
+    display: block;
+    background-color: #6C63FF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.tombol2:hover{
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+.sec3 .langkah3{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background: url(../img/index/langkah3-bg.png) no-repeat center;
+    background-size: cover;
+    background-position-y: 10px;
+}
+
+.sec3 .langkah3 h2{
+    width: 80%;
+    font-size: 2.5em;
+    margin: 0 auto 12%;
+    -webkit-transform: translateY(60%);
+            transform: translateY(60%);
+}
+
+.sec3 .langkah3 a{
+    margin: auto;
+}
+
+.sec4{
+    position: relative;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    width: 100%;
+    height: 100vh;
+    background: #001344;
+}
+
+.sec4 h1{
+    width: 50%;
+    -webkit-transform: translateY(60%);
+            transform: translateY(60%);
+    text-align: left !important;
+    color: #fff;
+    margin-left: 8%;
+    margin-bottom: 10%;
+}
+
+.sec4 .tombol{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+.sec4 .tombol a{
+    margin-bottom: 2em;
+}
+
+.sec4 .gambar{
+    z-index: -1;
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+}
+
+@media screen and (max-width : 900px){
+    .teksHeader {
+        font-size: 2.5em;
+    }
+
+    .sec2 h2 {
+        font-size: 1.45em;
+    }
+
+    .masalah1 {
+        height: 75vh;
+    }
+
+    .sec3 h2 {
+        font-size: 1.45em;
+    }
+
+    .sec3 p {
+        font-size: 1em;
+    }
+
+    .langkah2 .gambarL2 {
+        left: -5%;
+    }
+
+    .tombol2 {
+        width: 160px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1em;
+    }
+
+    .sec3 .langkah3 h2 {
+        font-size: 2em;
+        margin-bottom: 15%;
+        padding: 0 20px;
+        -webkit-transform: translateY(20%);
+                transform: translateY(20%);
+    }
+
+    .sec3 .langkah3 a {
+        margin: -30px auto;
+    }
+
+    .sec4{
+        overflow: hidden;
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+
+    .sec4 h1 {
+        -webkit-transform: translateY(60%);
+                transform: translateY(60%);
+        font-size: 2em;
+        width: 50%;
+    }
+
+    .sec4 .gambar {
+        right: -32%;
+    }
+
+    .sec4 .tombol {
+        width: 70%;
+        margin: auto;
+        -webkit-transform: translateY(5%);
+                transform: translateY(5%);
+    }
+}

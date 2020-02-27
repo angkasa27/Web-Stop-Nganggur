@@ -1,0 +1,217 @@
+.sec1{
+    background: url(../img/lowongan-kerja/daftar-lowongan-bg.png) no-repeat right;
+    background-size: cover;
+}
+
+.sec1 nav ul li a{
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.sec1 .awal{
+    width: 40% !important;
+    position: relative !important;
+    top: 0;
+    left: 0;
+    -webkit-transform: translate(0,0) !important;
+            transform: translate(0,0) !important;
+    margin-left: 5%;
+}
+
+.sec1 .awal p{
+    font-size: 2.3em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+.sec1 .awal p.deskripsi{
+    font-size: 20px;
+    text-shadow: 0 0 10px #000;
+}
+
+.sec1 .awal h1{
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    margin-bottom: 20px !important;
+}
+
+.sec2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 5% 8%;
+    box-sizing: border-box;
+}
+
+.sec2 .bidang{
+    padding: 0 0 50px 0;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.sec2 .bidang .judul-bidang{
+    font-size: 36px;
+}
+
+.sec2 .bidang .box-group{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.sec2 .bidang .box-group .box{
+    width: 360px;
+    height: 400px;
+    margin: 25px 25px 25px 0;
+}
+
+.sec2 .bidang .box-group .box .img-box{
+    width: 360px;
+    height: 200px;
+}
+
+.sec2 .bidang .box-group .box .img-box img{
+    width: 100%;
+    height: 250px;
+}
+
+.sec2 .bidang .box-group .box .konten{
+    text-align: center;
+    padding: 60px 20px 20px 0;
+}
+
+.sec2 .bidang .box-group .box .konten h3{
+    font-size: 24px;
+}
+
+.sec2 .bidang .box-group .box .konten h3 span{
+    display: block;
+    color: #7C7C7C;
+    font-size: 18px;
+}
+
+.sec2 .next-back{
+    position: relative;
+    display: block;
+    padding: 10px;
+    background: #a7a7a7;
+    color: #fff;
+    text-align: center;
+    font-size: 48px;
+    font-size: 3rem;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.sec2 .next-back:hover{
+    background: #000;
+}
+
+.sec2 #back1{
+    display: none;
+    position: absolute;
+    top: 11%;
+    left: 4%;
+}
+
+.sec2 #next1{
+    position: absolute;
+    top: 11%;
+    right: 4%;
+}
+
+.sec2 #back2{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 4%;
+}
+
+.sec2 #next2{
+    position: absolute;
+    top: 30%;
+    right: 4%;
+}
+
+.sec2 #back3{
+    display: none;
+    position: absolute;
+    top: 49%;
+    left: 4%;
+}
+
+.sec2 #next3{
+    position: absolute;
+    top: 49%;
+    right: 4%;
+}
+
+.sec2 #back4{
+    display: none;
+    position: absolute;
+    top: 68%;
+    left: 4%;
+}
+
+.sec2 #next4{
+    position: absolute;
+    top: 68%;
+    right: 4%;
+}
+
+.sec2 #back5{
+    display: none;
+    position: absolute;
+    top: 87%;
+    left: 4%;
+}
+
+.sec2 #next5{
+    position: absolute;
+    top: 87%;
+    right: 4%;
+}
+
+.info{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+}
+
+.tampil{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.tampil .box{
+    width: 70%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width : 900px){
+    .sec1 .awal p {
+        margin-bottom: 20px !important;
+    }
+
+    .sec1 .awal p.deskripsi {
+        font-size: 1.2em;
+    }
+}

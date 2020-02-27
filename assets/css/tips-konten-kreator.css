@@ -1,0 +1,30 @@
+.sec1{
+    background: url(../img/tips-konten-kreator/konten-kreator.png) no-repeat right;
+    background-size: cover;
+    background-position-y: 15%;
+}
+
+.sec1 .awal p{
+    color: #000 !important;
+    text-shadow: none !important;
+}
+
+.sec1 .awal h1{
+    color: #000 !important;
+    text-shadow: none !important;
+}
+
+.sec1 nav ul li a{
+    color: #fff;
+    text-shadow: 0 0 2px #000,
+    0 0 4px #000,
+    0 0 6px #000;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+@media screen and (max-width : 900px){
+    .sec1 .awal {
+        margin-top: 10%;
+    }
+}
